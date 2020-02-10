@@ -1,7 +1,7 @@
-require('dotenv').config()
 import 'puppeteer'
 import * as Agent from 'socks5-https-client/lib/Agent'
 import * as TelegramBot from 'node-telegram-bot-api'
+require('dotenv').config()
 
 const TOKEN = process.env.BOT_TOKEN
 
