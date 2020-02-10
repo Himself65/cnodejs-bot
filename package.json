@@ -1,0 +1,31 @@
+{
+  "name": "cnodejs-bot",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "himself65",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon --watch 'src/**/*.ts' --exec ts-node src/index.ts --delay 2.5"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "^0.40.0",
+    "request": "^2.88.0",
+    "socks5-https-client": "^1.2.1",
+    "ts-node": "^8.6.2"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.40.2",
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.7.5"
+  }
+}
